@@ -423,7 +423,7 @@ body{
 }
   
   /* Mobile phones */
-  @media (max-width: 480px) {
+  @media (max-width: 510px) {
     .barraNavegacion ul {
       gap: 15px;
     }
@@ -436,6 +436,15 @@ body{
     .btn-ordenar {
       padding: 10px;
     }
+    .validation-texto p{
+        width: 100px;
+        font-size: 11px
+    }
+    .validation{
+        transform: translate(-14%);
+        width: 100%;
+        
+    }      
   }
 
   @media (max-width: 768px) {
